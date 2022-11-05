@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="OpenCL Files">
+      <UniqueIdentifier>{D011BB44-1BF7-4113-997B-A081035B40D8}</UniqueIdentifier>
+      <Extensions>cl</Extensions>
+    </Filter>
+    <Filter Include="OpenCL_Crypto">
+      <UniqueIdentifier>{49baadc5-83a3-41fc-b4b2-80d765781b2e}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="AOCLUtils">
+      <UniqueIdentifier>{b574c74a-7957-47db-8da6-547d1b1051d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto">
+      <UniqueIdentifier>{078e880a-2f8a-4765-89c0-0a9579e2bcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\BIP0032">
+      <UniqueIdentifier>{ff992035-6cfd-4e82-a485-f154de073e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\secp256k1">
+      <UniqueIdentifier>{236e3100-d494-4eee-a79e-331e180e93a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\trezor-crypto">
+      <UniqueIdentifier>{ca261958-ae70-43fd-ac17-0543f3392404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\SHA_2">
+      <UniqueIdentifier>{8a0c95e9-729a-4a82-ba39-b8e91c00c1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\Tools">
+      <UniqueIdentifier>{fc4e1a3f-d6cc-4955-9382-24f234c48efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\secp256k1\src">
+      <UniqueIdentifier>{b5792fb0-252f-4f24-8caa-58f7d0b3fc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU_Crypto\secp256k1\include">
+      <UniqueIdentifier>{60984894-8b79-40ee-b0f7-c51a4c5d4444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite3">
+      <UniqueIdentifier>{38ae1440-b09e-4a3f-b018-8cfdee7c4e40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCL_Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AOCLUtils\opencl.cpp">
+      <Filter>AOCLUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AOCLUtils\options.cpp">
+      <Filter>AOCLUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\BIP0032\bip0032.cpp">
+      <Filter>CPU_Crypto\BIP0032</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\SHA_2\sha256.cpp">
+      <Filter>CPU_Crypto\SHA_2</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\SHA_2\sha512.cpp">
+      <Filter>CPU_Crypto\SHA_2</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\trezor-crypto\hasher.cpp">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\trezor-crypto\hmac.cpp">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\trezor-crypto\pbkdf2.cpp">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\trezor-crypto\ripemd160.cpp">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\trezor-crypto\segwit_addr.cpp">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\Tools\Addresses_Generate_CPU.cpp">
+      <Filter>CPU_Crypto\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Crypto\secp256k1\src\secp256k1.c">
+      <Filter>CPU_Crypto\secp256k1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Print_Devices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>OpenCL Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto_Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite3\sqlite_db.cpp">
+      <Filter>SQLite3</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite3\sqlite_tools.cpp">
+      <Filter>SQLite3</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite3\sqlite3.c">
+      <Filter>SQLite3</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto_CPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCL_Tools.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AOCLUtils\aocl_utils.h">
+      <Filter>AOCLUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AOCLUtils\opencl.h">
+      <Filter>AOCLUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AOCLUtils\options.h">
+      <Filter>AOCLUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AOCLUtils\scoped_ptrs.h">
+      <Filter>AOCLUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\BIP0032\bip0032.h">
+      <Filter>CPU_Crypto\BIP0032</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\SHA_2\sha2.h">
+      <Filter>CPU_Crypto\SHA_2</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\SHA_2\sha256.h">
+      <Filter>CPU_Crypto\SHA_2</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\SHA_2\sha512.h">
+      <Filter>CPU_Crypto\SHA_2</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\hasher.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\hmac.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\options.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\pbkdf2.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\ripemd160.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\trezor-crypto\segwit_addr.h">
+      <Filter>CPU_Crypto\trezor-crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\Tools\Addresses_Generate_CPU.h">
+      <Filter>CPU_Crypto\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\secp256k1\include\libsecp256k1-config.h">
+      <Filter>CPU_Crypto\secp256k1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\secp256k1\include\secp256k1.h">
+      <Filter>CPU_Crypto\secp256k1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Crypto\secp256k1\include\secp256k1_recovery.h">
+      <Filter>CPU_Crypto\secp256k1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto_Tools.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite3\sqlite_db.h">
+      <Filter>SQLite3</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite3\sqlite_tools.h">
+      <Filter>SQLite3</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto_CPU.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Intel_OpenCL_Build_Rules Include="Template.cl">
+      <Filter>OpenCL Files</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\01_common.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\02_ripemd.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\03_sha2.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\04_secp256k1_common.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\05_secp256k1_scalar.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\06_secp256k1_field.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\07_secp256k1_group.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\08_secp256k1_prec.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\09_secp256k1.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\10_address.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="OpenCL_Crypto\12_int_to_address.cl">
+      <Filter>OpenCL_Crypto</Filter>
+    </Intel_OpenCL_Build_Rules>
+    <Intel_OpenCL_Build_Rules Include="Crypto.cl">
+      <Filter>OpenCL Files</Filter>
+    </Intel_OpenCL_Build_Rules>
+  </ItemGroup>
+</Project>
